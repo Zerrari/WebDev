@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="zh-CN">
+
+<link rel="stylesheet" href="../static/bootstrap/css/bootstrap.css">
+<link rel="stylesheet" href="../static/login.css">
+
+<head>
+
+<title>Login</title>
+
+</head>
+
+<body>
+
+<div id="log" style="width:400px;height:600px;margin:auto" text-align="center">
+	<form method="POST" action="/" align="center">
+		<fieldset>
+				{{form.username.label}}<br>
+				{{form.username(class="form")}}<br>
+				{{form.passwd.label}}<br>
+				{{form.passwd(class="form")}}<br>
+		</fieldset>
+		</br>
+		<button class="logbutton" type="button" style="width:60px;height:40px">		
+	</form>
+</div>
+
+</body>
+
+<script src="../static/jquery/jquery.js"></script>
+<sricpt src="../static/bootstrap/js/bootstrap.min.js"></script>
+</html>
